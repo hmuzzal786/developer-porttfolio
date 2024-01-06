@@ -1,0 +1,49 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/*common shared style*/
+.header{
+    margin: 0 200px;
+    background-color: #FFF8F3;
+}
+.text-orang{
+    color: #ff6f0a;
+}
+.btn-orang{
+    background-color: #ff6f0a;
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 15px 35px;
+border: none;
+border-radius: 5px;
+}
+
+/*========nav section start========*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+   
+}
+.navbar li{
+    list-style: none;
+    margin-right: 50px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
