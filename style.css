@@ -106,17 +106,21 @@
     border: 1px solid #ff6f0a;
 }
 /*========hero section end========*/
+
+
 /*========about section start========*/
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
 
 .about-section{
-    padding: 130px;
+    padding: 100px;
     background-color: #FFF8F3;
     margin: 130px 0;
     
-
+ 
 }
-
-
 .about-description{
     color: #757575;
     text-align: center;
@@ -124,5 +128,41 @@
     font-weight: 400;
     line-height: 30px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.info-description{
+    color:#312d2d;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; 
+    margin-top: 4px;
+}
 /*========about section end========*/
+
+
+/*========what i do section start========*/
+.what-i-do-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+/*========what i do section end========*/
 
